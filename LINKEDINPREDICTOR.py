@@ -148,19 +148,19 @@ def make_prediction(input_data):
 
 
 
-audio_file_path = '/Users/adampiro/Downloads/8d82b5_Super_Mario_Bros_Power_Up_Sound_Effect.mp3'  # Replace with the path to your audio file
-audio_html = f"""
-<audio id="success-audio" controls style="display: none;">
-  <source src="{audio_file_path}" type="audio/mpeg">
-</audio>
-<script>
-function playAudio() {{
-  var audio = document.getElementById('success-audio');
-  audio.play();
-}}
-</script>
-"""
-st.markdown(audio_html, unsafe_allow_html=True)
+#audio_file_path = '/Users/adampiro/Downloads/8d82b5_Super_Mario_Bros_Power_Up_Sound_Effect.mp3'  # Replace with the path to your audio file
+#audio_html = f"""
+#<audio id="success-audio" controls style="display: none;">
+ # <source src="{audio_file_path}" type="audio/mpeg">
+#</audio>
+#<script>
+#function playAudio() {{
+#  var audio = document.getElementById('success-audio');
+ # audio.play();
+#}}
+#</script>
+#"""
+#st.markdown(audio_html, unsafe_allow_html=True)
 
 
 # Streamlit interface
