@@ -183,6 +183,7 @@ st.markdown("""
     </style>
     <h1 class='pulsing-title'>LINKEDIN USER PREDICTOR</h1>
     """, unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: small;'>This application was developed by Adam Piro</p>", unsafe_allow_html=True)
 
 st.markdown(
     """
