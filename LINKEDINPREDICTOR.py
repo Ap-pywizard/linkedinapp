@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from sklearn.utils import resample
 
 # Step 1: Read in Data and Check Dimensions
-file_path = '/Users/adampiro/Downloads/social_media_usage.csv'
+file_path = '/Users/adampiro/Desktop/final/social_media_usage.csv'
 s = pd.read_csv(file_path)
 print(s.shape)
 
