@@ -265,7 +265,7 @@ if submit_button:
         #st.markdown('<script>playAudio();</script>', unsafe_allow_html=True)
         st.balloons()
         st.write(f"Yes, this is a Linked In user!")
-        st.image('/Users/adampiro/Downloads/Linked in photo.png') 
+        st.image("Linked in photo.png") 
     else :
         st.write(f"No, this is not a Linked In user!")
 #run application
