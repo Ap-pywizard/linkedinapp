@@ -262,7 +262,7 @@ if submit_button:
     # Display the result
     st.write(f"Probability of being a LinkedIn user: {prediction:.2f}/1")
     if prediction >= 0.5 :
-        st.markdown('<script>playAudio();</script>', unsafe_allow_html=True)
+        #st.markdown('<script>playAudio();</script>', unsafe_allow_html=True)
         st.balloons()
         st.write(f"Yes, this is a Linked In user!")
         st.image('/Users/adampiro/Downloads/Linked in photo.png') 
