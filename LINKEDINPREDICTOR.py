@@ -202,13 +202,13 @@ st.markdown(
 with st.form("user_input_form"):
     income_options = {
         "Under $20,000": 1,
-        "$20,000 to $40,000": 2,
-        "$40,000 to $60,000": 3,
-        "$60,000 to $80,000": 4,
-        "$80,000 to $90,000": 5,
-        "$90,000 to $100,000": 6,
-        "$100,000 to $120,000": 7,
-        "$120,000 to $150,000": 8,
+        "$20,000 to $30,000": 2,
+        "$30,000 to $40,000": 3,
+        "$40,000 to $50,000": 4,
+        "$50,000 to $60,000": 5,
+        "$60,000 to $80,000": 6,
+        "$80,000 to $100,000": 7,
+        "$100,000 to $150,000": 8,
         "$150,000 to $200,000": 9,
         "Over $200,000": 9
     }
@@ -222,8 +222,8 @@ with st.form("user_input_form"):
     education_options = {
         "High School": [1, 2],
         "Undergraduate Degree": [3, 4],
-        "Master's Degree": [5, 6],
-        "PhD": [7, 8]
+        "Graduate Degree": [5, 6],
+        "Doctorate": [7, 8]
     }
     education_selection = st.selectbox("Select your highest level of education", list(education_options.keys()))
     slider_container = st.empty()
