@@ -225,9 +225,9 @@ with st.form("user_input_form"):
         "Graduate Degree": [5, 6],
         "Doctorate": [7, 8]
     }
-    education_selection = st.selectbox("Select your highest level of education", list(education_options.keys()))
-    slider_container = st.empty()
-    education = slider_container.slider("Education Level", min_value=education_options[education_selection][0], max_value=education_options[education_selection][1], value=education_options[education_selection][0])
+    education = st.selectbox("Select your highest level of education", list(education_options.keys()))
+    #slider_container = st.empty()
+    #education = slider_container.slider("Education Level", min_value=education_options[education_selection][0], max_value=education_options[education_selection][1], value=education_options[education_selection][0])
 
 
     # Parent status
