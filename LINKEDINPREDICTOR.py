@@ -269,6 +269,15 @@ if submit_button:
         st.image("Linked in photo.png") 
     else :
         st.write(f"No, this is not a Linked In user!")
+
+st.write("Was our prediction correct?")
+
+if st.button('Yes'):
+    st.write("Great! Our model was accurate.")
+
+if st.button('No'):
+    st.write("Sorry to hear that. We're constantly improving our Machine Learning Algorithm.")
+
 #run application
 
 
