@@ -246,13 +246,6 @@ with st.form("user_input_form"):
     submit_button = st.form_submit_button("Predict LinkedIn Usage")
 
 if submit_button:
-    st.write("Was our prediction correct?")
-
-if st.button('Yes'):
-    st.write("Great! Our model was accurate.")
-
-if st.button('No'):
-    st.write("Sorry to hear that. We're constantly improving our Machine Learning Algorithm.")
     slider_container.empty()
     # Convert gender to 'female' and 'male' binary columns
     female = 1 if gender == 2 else 0
@@ -277,7 +270,13 @@ if st.button('No'):
     else :
         st.write(f"No, this is not a Linked In user!")
 
+ st.write("Was our prediction correct?")
 
+if st.button('Yes'):
+    st.write("Great! Our model was accurate.")
+
+if st.button('No'):
+    st.write("Sorry to hear that. We're constantly improving our Machine Learning Algorithm.")
 #run application
 
 
